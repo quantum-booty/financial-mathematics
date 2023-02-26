@@ -4,6 +4,7 @@ import pandas as pd
 
 def discount_zc(p: float, y: float, m: float, coupon_freq: int):
     """
+    p: principal in dollars
     y: annual market interest rate
     coupon_freq: times you get paid per year
     m: maturity in years
